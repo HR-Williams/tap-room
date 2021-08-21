@@ -23,7 +23,7 @@ function NewKegForm(props) {
           <input
             type='number'
             step='0.01'
-            name='alcoholContent' placeholder='Alcohol Content' />
+            name='alcoholContent' placeholder='% Alcohol Content' />
           <button type='submit'></button>
         </form>
       </React.Fragment>  
@@ -34,6 +34,9 @@ function NewKegForm(props) {
       console.log(event.target.name.value);
       console.log(event.target.price.value);
       console.log(event.target.alcoholContent.value);
+      const floatPrice = parseFloat(event.target.price.value)
+      const floatAlcContent= parseFloat(event.target.alcoholContent.value)
+      props.onNewKegCreation({bevType: event.target.bevType.value, name: event.target.name.value, price: floatPrice, alcoholContent: floatAlcContent, id: v4()})
   };
 }
 
