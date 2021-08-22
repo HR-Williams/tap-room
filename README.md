@@ -25,7 +25,7 @@ This is an independet project for Epicodus to demonstrate new skills in React Fu
 * Open the terminal on your local machine
 * If [Node.js](https://nodejs.org/en/) and [Node Package Manager (npm)](https://www.npmjs.com/) are not installed on your local device, follow the instructions [here](https://www.learnhowtoprogram.com/intermediate-javascript/getting-started-with-javascript/installing-node-js)
 * Clone this project with the following git command `$ git clone https://github.com/HR-Williams/tap-room`
-* Navigate to the top level of the repository with the command `$ cd super-galactic-age-calculator`_
+* Navigate to the top level of the repository
 * Recreate project environment and install required dependencies with terminal command `$ npm install`
 * `npm start` Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
