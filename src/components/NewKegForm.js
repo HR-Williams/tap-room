@@ -36,13 +36,9 @@ function NewKegForm(props) {
     );
     function handleNewKegFormSubmission(event) {
       event.preventDefault();
-      // console.log(event.target.bevType.value);
-      // console.log(event.target.name.value);
-      // console.log(event.target.price.value);
-      // console.log(event.target.alcoholContent.value);
       const floatPrice = parseFloat(event.target.price.value).toFixed(2)
       const floatAlcContent= parseFloat(event.target.alcoholContent.value)
-      props.onNewKegCreation({bevType: event.target.bevType.value, name: event.target.name.value, price: floatPrice, alcoholContent: floatAlcContent, id: v4()})
+      props.onNewKegCreation({bevType: event.target.bevType.value, name: event.target.name.value, pints: 124, price: floatPrice, alcoholContent: floatAlcContent, id: v4()})
   };
 }
 

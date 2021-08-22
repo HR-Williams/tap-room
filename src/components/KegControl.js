@@ -40,12 +40,22 @@ class KegControl extends React.Component {
     this.setState({selectedKeg: selectedKeg});
   }
 
+  handleSellingPint = (bevToSell) => {
+    const soldMainKegList = this.state.mainKegList
+    .filter(keg => keg.id !==this.state.selectedKeg.id)
+    .concat(bevToSell);
+    this.setState({
+      mainKegList: soldMainKegList,
+      editing: false
+    });
+  }
+
   render(){
     let currentlyVisibleState = null;
     let buttonText = null;
 
     if (this.state.selectedKeg != null) {
-      currentlyVisibleState = <KegDetail keg = {this.state.selectedKeg} />
+      currentlyVisibleState = <KegDetail keg= {this.state.selectedKeg} onClickingSell = {this.handleSellingPint} />
       buttonText = "Return to Keg List";
     }
     else if (this.state.formVisibleOnPage) {
