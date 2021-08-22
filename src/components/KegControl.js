@@ -45,8 +45,7 @@ class KegControl extends React.Component {
     .filter(keg => keg.id !==this.state.selectedKeg.id)
     .concat(bevToSell);
     this.setState({
-      mainKegList: soldMainKegList,
-      editing: false
+      mainKegList: soldMainKegList
     });
   }
 
