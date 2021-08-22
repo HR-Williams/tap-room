@@ -1,71 +1,43 @@
-# Getting Started with Create React App
+# Tap Room
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Ferment Collective Tap Room
 
-## Available Scripts
+#### In house application to track inventory of house-made fermented drinks on tap.
 
-In the project directory, you can run:
+#### By **HR Williams**
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
+* React.js
+* JavaScript
+* JSX
+* CSS
+
+## Description
+
+This is an independet project for Epicodus to demonstrate new skills in React Fundamentals. This app allows tap room staff to create and view keg inventory. User can add keg inventory, see a list of all kegs, click a keg and see detail of all keg info. When pints are sold, total amount in keg decrements and when keg reaches 0 pints no more can be sold.
+
+
+![Component Diagram](/images/component-diagram.png)
+
+## Setup/Installation Requirements
+
+* Open the terminal on your local machine
+* If [Node.js](https://nodejs.org/en/) and [Node Package Manager (npm)](https://www.npmjs.com/) are not installed on your local device, follow the instructions [here](https://www.learnhowtoprogram.com/intermediate-javascript/getting-started-with-javascript/installing-node-js)
+* Clone this project with the following git command `$ git clone https://github.com/HR-Williams/tap-room`
+* Navigate to the top level of the repository with the command `$ cd super-galactic-age-calculator`_
+* Recreate project environment and install required dependencies with terminal command `$ npm install`
+* `npm start` Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Known Bugs
 
-### `npm test`
+* No known bugs
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
+*[MIT](https://choosealicense.com/licenses/mit/)*
 
-### `npm run build`
+Copyright (c) **2021 HR Williams**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# tap-room
+## Contact Information
+HR Williams <halrubinwilliams@gmail.com>
